@@ -6,7 +6,7 @@ To manage multiple hair systems in the scene, please refer to [HairSystemManager
 
 ### Features
 - Interactive rig layout
-- Spline IK with multiple twist controls and length&volume preservation
+- Spline IK with multiple controls and length preservation
 - Variable FK
 - nHair Dynamics with key-framed animation as guide (attraction adjustable)
 - Animation blend between key-framed and simulated result
@@ -26,6 +26,7 @@ DynRigBuilder.show()
 ![DynRigBuilder](http://oszfa13oq.bkt.clouddn.com/hairsystemmanager...png)
 
 ### TODO
+- volume preservation / squash&stretch
 - import and export rig layout
 - control shape editor
 
