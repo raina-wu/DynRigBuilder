@@ -23,7 +23,7 @@ import DynRigBuilder
 DynRigBuilder.show() 
 ```
 
-![DynRigBuilder](http://oszfa13oq.bkt.clouddn.com/hairsystemmanager...png)
+![Demo Video](https://vimeo.com/233948834)
 
 ### TODO
 - volume preservation / squash&stretch
