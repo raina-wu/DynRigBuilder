@@ -23,7 +23,7 @@ import DynRigBuilder
 DynRigBuilder.show() 
 ```
 
-![Demo Video](https://vimeo.com/233948834)
+[Demo Video](https://vimeo.com/233948834)
 
 ### TODO
 - volume preservation / squash&stretch
