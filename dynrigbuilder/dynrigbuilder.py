@@ -16,10 +16,11 @@ except ImportError:
     from PySide import __version__
     from shiboken import wrapInstance
 
+import dynrigbuilderui
 import splinerig
 import scaffold
 
-map(reload,[splinerig, scaffold])
+map(reload,[splinerig, scaffold, dynrigbuilderui])
 
 
 mayaMainWindowPtr = omui.MQtUtil.mainWindow()
@@ -51,16 +52,8 @@ class DynRigBuilderUI(QWidget):
         self._initUI()
 
     def _initUI(self):
-        loader = QUiLoader()
-        currentDir = os.path.dirname(__file__)
-        uiFile = QFile(currentDir+"/dynrigbuilder.ui")
-        uiFile.open(QFile.ReadOnly)
-        self.ui = loader.load(uiFile, parentWidget=self)
-        uiFile.close()
-
-        layout = QHBoxLayout()
-        layout.addWidget(self.ui)
-        self.setLayout(layout)
+        self.ui = dynrigbuilderui.Ui_Form()
+        self.ui.setupUi(self)
 
         self._updateUI()
 
