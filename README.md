@@ -16,7 +16,9 @@ To manage multiple hair systems in the scene, please refer to [HairSystemManager
 - Maya 2013 and above
 
 ### Usage
-- Copy the root folder`DynRigBuilder` into your maya script folder, make sure the folder name stay the same.
+- Copy the root folder`DynRigBuilder` into your maya script folder, make sure the folder name stay the same. 
+An example file structure is as follows:
+![example file structure](https://user-images.githubusercontent.com/8005230/47268127-bb336480-d544-11e8-9878-f25e6faa842e.jpg)
 
 - Run the scripts below, and the UI will show up.
 ```python
