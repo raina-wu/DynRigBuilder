@@ -6,7 +6,7 @@
 #      by: pyside2-uic  running on PySide2 2.0.0~alpha0
 #
 # WARNING! All changes made in this file will be lost!
-from Qt import QtCore, QtGui, QtWidgets
+from Qt import QtCore, QtGui, QtWidgets, QtCompat
 
 class Ui_Form(object):
     def setupUi(self, Form):
@@ -668,26 +668,26 @@ class Ui_Form(object):
         QtCore.QMetaObject.connectSlotsByName(Form)
 
     def retranslateUi(self, Form):
-        Form.setWindowTitle(QtWidgets.QApplication.translate("Form", "DynRigBuilder", None, -1))
-        self.groupBox_4.setTitle(QtWidgets.QApplication.translate("Form", "DynRigBuilder", "0", -1))
-        self.label_4.setText(QtWidgets.QApplication.translate("Form", "Prefix", None, -1))
-        self.pushButton_buildLayout.setText(QtWidgets.QApplication.translate("Form", "Build/Load Layout", None, -1))
-        self.label.setText(QtWidgets.QApplication.translate("Form", "Joint Num", None, -1))
-        self.groupBox_fk.setTitle(QtWidgets.QApplication.translate("Form", "FK", None, -1))
-        self.label_7.setText(QtWidgets.QApplication.translate("Form", "Type", None, -1))
-        self.comboBox_fkType.setItemText(0, QtWidgets.QApplication.translate("Form", "Variable FK", None, -1))
-        self.comboBox_fkType.setItemText(1, QtWidgets.QApplication.translate("Form", "Regualr FK", None, -1))
-        self.label_8.setText(QtWidgets.QApplication.translate("Form", "FK Ctrl Num", None, -1))
-        self.lineEdit_fkCtrlNum.setText(QtWidgets.QApplication.translate("Form", "3", None, -1))
-        self.groupBox_ik.setTitle(QtWidgets.QApplication.translate("Form", "IK", None, -1))
-        self.label_2.setText(QtWidgets.QApplication.translate("Form", "Master Ctrl Num", None, -1))
-        self.lineEdit_masterCtrlNum.setText(QtWidgets.QApplication.translate("Form", "5", None, -1))
-        self.label_3.setText(QtWidgets.QApplication.translate("Form", "IBT Sub Ctrl Num", None, -1))
-        self.lineEdit_ibtCtrlNum.setText(QtWidgets.QApplication.translate("Form", "1", None, -1))
-        self.checkBox_psvVolume.setText(QtWidgets.QApplication.translate("Form", "Preserve Volume", None, -1))
-        self.checkBox_psvLength.setText(QtWidgets.QApplication.translate("Form", "Preserve Length", None, -1))
-        self.groupBox_dynamic.setTitle(QtWidgets.QApplication.translate("Form", "Dynamics", None, -1))
-        self.label_10.setText(QtWidgets.QApplication.translate("Form", "Hair System", None, -1))
-        self.comboBox_hairSystem.setItemText(0, QtWidgets.QApplication.translate("Form", "New", None, -1))
-        self.pushButton_buildRig.setText(QtWidgets.QApplication.translate("Form", "Build Rig", None, -1))
+        Form.setWindowTitle(QtCompat.translate("Form", "DynRigBuilder", None, -1))
+        self.groupBox_4.setTitle(QtCompat.translate("Form", "DynRigBuilder", "0", -1))
+        self.label_4.setText(QtCompat.translate("Form", "Prefix", None, -1))
+        self.pushButton_buildLayout.setText(QtCompat.translate("Form", "Build/Load Layout", None, -1))
+        self.label.setText(QtCompat.translate("Form", "Joint Num", None, -1))
+        self.groupBox_fk.setTitle(QtCompat.translate("Form", "FK", None, -1))
+        self.label_7.setText(QtCompat.translate("Form", "Type", None, -1))
+        self.comboBox_fkType.setItemText(0, QtCompat.translate("Form", "Variable FK", None, -1))
+        self.comboBox_fkType.setItemText(1, QtCompat.translate("Form", "Regualr FK", None, -1))
+        self.label_8.setText(QtCompat.translate("Form", "FK Ctrl Num", None, -1))
+        self.lineEdit_fkCtrlNum.setText(QtCompat.translate("Form", "3", None, -1))
+        self.groupBox_ik.setTitle(QtCompat.translate("Form", "IK", None, -1))
+        self.label_2.setText(QtCompat.translate("Form", "Master Ctrl Num", None, -1))
+        self.lineEdit_masterCtrlNum.setText(QtCompat.translate("Form", "5", None, -1))
+        self.label_3.setText(QtCompat.translate("Form", "IBT Sub Ctrl Num", None, -1))
+        self.lineEdit_ibtCtrlNum.setText(QtCompat.translate("Form", "1", None, -1))
+        self.checkBox_psvVolume.setText(QtCompat.translate("Form", "Preserve Volume", None, -1))
+        self.checkBox_psvLength.setText(QtCompat.translate("Form", "Preserve Length", None, -1))
+        self.groupBox_dynamic.setTitle(QtCompat.translate("Form", "Dynamics", None, -1))
+        self.label_10.setText(QtCompat.translate("Form", "Hair System", None, -1))
+        self.comboBox_hairSystem.setItemText(0, QtCompat.translate("Form", "New", None, -1))
+        self.pushButton_buildRig.setText(QtCompat.translate("Form", "Build Rig", None, -1))
 
