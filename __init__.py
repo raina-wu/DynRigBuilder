@@ -1,7 +1,7 @@
 __author__ = 'wuxiaoyu'
 
-from dynrigbuilder import dynrigbuilder
+from dynrigbuilder import main
 
-reload(dynrigbuilder)
+reload(main)
 def show():
-    dynrigbuilder.show()
+    main.show()

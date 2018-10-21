@@ -1,20 +1,15 @@
 __author__ = 'wuxiaoyu'
-
 from maya import OpenMayaUI as omui
 import pymel.core as pm
-import os
+
+from Qt.QtCore import *
+from Qt.QtGui import *
+from Qt.QtWidgets import *
+
 try:
-    from PySide2.QtCore import *
-    from PySide2.QtGui import *
-    from PySide2.QtWidgets import *
-    from PySide2 import __version__
-    from shiboken2 import wrapInstance
-except ImportError:
-    from PySide.QtCore import *
-    from PySide.QtGui import *
-    from PySide.QtUiTools import *
-    from PySide import __version__
     from shiboken import wrapInstance
+except:
+    from shiboken2 import wrapInstance
 
 import dynrigbuilderui
 import splinerig
